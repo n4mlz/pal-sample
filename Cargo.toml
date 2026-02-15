@@ -1,0 +1,7 @@
+[workspace]
+resolver = "3"
+members = ["app/domain", "app/platform/*", "cmd/*"]
+
+[workspace.dependencies]
+domain = { path = "app/domain" }
+ext-linux = { path = "app/platform/linux" }

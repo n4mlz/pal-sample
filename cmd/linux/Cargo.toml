@@ -1,0 +1,8 @@
+[package]
+name = "cmd-linux"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+domain.workspace = true
+ext-linux.workspace = true
