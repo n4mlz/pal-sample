@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["app/domain", "app/platform/*", "cmd/*"]
+members = ["app/domain", "app/platform/*", "sample/*"]
 
 [workspace.dependencies]
 domain = { path = "app/domain" }

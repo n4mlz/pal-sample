@@ -3,14 +3,6 @@
 version = 4
 
 [[package]]
-name = "cmd-linux"
-version = "0.1.0"
-dependencies = [
- "domain",
- "ext-linux",
-]
-
-[[package]]
 name = "domain"
 version = "0.1.0"
 
@@ -19,4 +11,12 @@ name = "ext-linux"
 version = "0.1.0"
 dependencies = [
  "domain",
+]
+
+[[package]]
+name = "sample-linux"
+version = "0.1.0"
+dependencies = [
+ "domain",
+ "ext-linux",
 ]
